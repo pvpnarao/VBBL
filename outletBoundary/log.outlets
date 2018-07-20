@@ -1,0 +1,95 @@
+[3J[H[2JCreating the resistance outlet RO1
+*******************************************************
+wmake libso .
+wmakeLnInclude: linking include files to ./lnInclude
+Making dependency list for source file RO1FvPatchScalarField.C
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/finiteVolume/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/meshTools/lnInclude -IlnInclude -I. -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OpenFOAM/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OSspecific/POSIX/lnInclude   -fPIC -c RO1FvPatchScalarField.C -o Make/linux64GccDPInt64Opt/RO1FvPatchScalarField.o
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/finiteVolume/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/meshTools/lnInclude -IlnInclude -I. -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OpenFOAM/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OSspecific/POSIX/lnInclude   -fPIC -shared -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPInt64Opt/RO1FvPatchScalarField.o -L/home/pavan/OpenFOAM/OpenFOAM-5.x/platforms/linux64GccDPInt64Opt/lib \
+    -lfiniteVolume -lmeshTools  -o /home/pavan/OpenFOAM/pavan-5.x/platforms/linux64GccDPInt64Opt/lib/libRO1.so
+
+
+updating the pressure boundary condition in the 0/p file
+
+
+updating the controlDict file
+moving out from the directory  RO1
+________________________________________________________ 
+ 
+ 
+
+Creating the resistance outlet RO2
+*******************************************************
+wmake libso .
+wmakeLnInclude: linking include files to ./lnInclude
+Making dependency list for source file RO2FvPatchScalarField.C
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/finiteVolume/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/meshTools/lnInclude -IlnInclude -I. -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OpenFOAM/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OSspecific/POSIX/lnInclude   -fPIC -c RO2FvPatchScalarField.C -o Make/linux64GccDPInt64Opt/RO2FvPatchScalarField.o
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/finiteVolume/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/meshTools/lnInclude -IlnInclude -I. -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OpenFOAM/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OSspecific/POSIX/lnInclude   -fPIC -shared -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPInt64Opt/RO2FvPatchScalarField.o -L/home/pavan/OpenFOAM/OpenFOAM-5.x/platforms/linux64GccDPInt64Opt/lib \
+    -lfiniteVolume -lmeshTools  -o /home/pavan/OpenFOAM/pavan-5.x/platforms/linux64GccDPInt64Opt/lib/libRO2.so
+
+
+updating the pressure boundary condition in the 0/p file
+
+
+updating the controlDict file
+moving out from the directory  RO2
+________________________________________________________ 
+ 
+ 
+
+Creating the resistance outlet RO3
+*******************************************************
+wmake libso .
+wmakeLnInclude: linking include files to ./lnInclude
+Making dependency list for source file RO3FvPatchScalarField.C
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/finiteVolume/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/meshTools/lnInclude -IlnInclude -I. -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OpenFOAM/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OSspecific/POSIX/lnInclude   -fPIC -c RO3FvPatchScalarField.C -o Make/linux64GccDPInt64Opt/RO3FvPatchScalarField.o
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/finiteVolume/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/meshTools/lnInclude -IlnInclude -I. -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OpenFOAM/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OSspecific/POSIX/lnInclude   -fPIC -shared -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPInt64Opt/RO3FvPatchScalarField.o -L/home/pavan/OpenFOAM/OpenFOAM-5.x/platforms/linux64GccDPInt64Opt/lib \
+    -lfiniteVolume -lmeshTools  -o /home/pavan/OpenFOAM/pavan-5.x/platforms/linux64GccDPInt64Opt/lib/libRO3.so
+
+
+updating the pressure boundary condition in the 0/p file
+
+
+updating the controlDict file
+moving out from the directory  RO3
+________________________________________________________ 
+ 
+ 
+
+Creating the resistance outlet RO4
+*******************************************************
+wmake libso .
+wmakeLnInclude: linking include files to ./lnInclude
+Making dependency list for source file RO4FvPatchScalarField.C
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/finiteVolume/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/meshTools/lnInclude -IlnInclude -I. -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OpenFOAM/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OSspecific/POSIX/lnInclude   -fPIC -c RO4FvPatchScalarField.C -o Make/linux64GccDPInt64Opt/RO4FvPatchScalarField.o
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/finiteVolume/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/meshTools/lnInclude -IlnInclude -I. -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OpenFOAM/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OSspecific/POSIX/lnInclude   -fPIC -shared -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPInt64Opt/RO4FvPatchScalarField.o -L/home/pavan/OpenFOAM/OpenFOAM-5.x/platforms/linux64GccDPInt64Opt/lib \
+    -lfiniteVolume -lmeshTools  -o /home/pavan/OpenFOAM/pavan-5.x/platforms/linux64GccDPInt64Opt/lib/libRO4.so
+
+
+updating the pressure boundary condition in the 0/p file
+
+
+updating the controlDict file
+moving out from the directory  RO4
+________________________________________________________ 
+ 
+ 
+
+Creating the resistance outlet RO5
+*******************************************************
+wmake libso .
+wmakeLnInclude: linking include files to ./lnInclude
+Making dependency list for source file RO5FvPatchScalarField.C
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/finiteVolume/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/meshTools/lnInclude -IlnInclude -I. -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OpenFOAM/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OSspecific/POSIX/lnInclude   -fPIC -c RO5FvPatchScalarField.C -o Make/linux64GccDPInt64Opt/RO5FvPatchScalarField.o
+g++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=64 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -O3  -DNoRepository -ftemplate-depth-100 -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/finiteVolume/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/meshTools/lnInclude -IlnInclude -I. -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OpenFOAM/lnInclude -I/home/pavan/OpenFOAM/OpenFOAM-5.x/src/OSspecific/POSIX/lnInclude   -fPIC -shared -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPInt64Opt/RO5FvPatchScalarField.o -L/home/pavan/OpenFOAM/OpenFOAM-5.x/platforms/linux64GccDPInt64Opt/lib \
+    -lfiniteVolume -lmeshTools  -o /home/pavan/OpenFOAM/pavan-5.x/platforms/linux64GccDPInt64Opt/lib/libRO5.so
+
+
+updating the pressure boundary condition in the 0/p file
+
+
+updating the controlDict file
+moving out from the directory  RO5
+________________________________________________________ 
+ 
+ 
+
